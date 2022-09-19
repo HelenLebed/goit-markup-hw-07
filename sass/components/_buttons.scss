@@ -16,37 +16,16 @@
     transition-property: background-color;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+    &:hover,
+    &:focus {
+        background: var(--modal-open-btn-background-color);
+    }
 }
 
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-    background: var(--modal-open-btn-background-color);
-}
-// __________________Footer
 .modal-form-submit {
-    background-color: var(--main-logo-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: block;
-    letter-spacing: 0.06em;
-    color: var(--secondary-font-color);
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 200px;
-    min-height: 50px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px var(--btn-box-shadow-color);
-    transition-property: background-color;
-    transition-duration: var(--transition-time);
-    transition-timing-function: var(--transition-function);
+    @extend .modal-open-btn;
 }
 
-.modal-form-submit:hover,
-.modal-form-submit:focus {
-    background: var(--modal-open-btn-background-color);
-}
-// ____________
 .modal-close-btn {
     position: absolute;
     top: 8px;
@@ -60,14 +39,16 @@
     background-color: transparent;
     border: 1px solid var(--shadow-border-color);
     padding: 0;
+
+    &:hover,
+    &:focus {
+        fill: var(--main-logo-color);
+        transition-property: fill;
+        transition-duration: var(--transition-time);
+        transition-timing-function: var(--transition-function);
+    }
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    fill: var(--main-logo-color);
-    transition-property: fill;
-    transition-duration: var(--transition-time);
-    transition-timing-function: var(--transition-function);
-}
+
 // ________________________________________________________
 .portfolio-select-list button {
     background: var(--portfolio-select-list-background-color);
@@ -84,11 +65,11 @@
     transition-property: background-color, color, box-shadow;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
-}
-.portfolio-select-list button:hover,
-.portfolio-select-list button:focus {
-    background-color: var(--main-logo-color);
-    color: var(--secondary-font-color);
-    box-shadow: 0px 3px 1px var(--shadow-border-color),
-        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    &:hover,
+    &:focus {
+        background-color: var(--main-logo-color);
+        color: var(--secondary-font-color);
+        box-shadow: 0px 3px 1px var(--shadow-border-color),
+            0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
 }

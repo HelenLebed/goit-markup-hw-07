@@ -15,10 +15,10 @@
 .menu li {
     margin-right: 50px;
 }
-.menu-item:last-child {
+.menu__item:last-child {
     margin-right: 0px;
 }
-.menu-link.current {
+.menu__link.current {
     color: var(--main-logo-color);
     position: relative;
 }
@@ -32,7 +32,7 @@
     border-radius: 2px;
     background-color: var(--main-logo-color);
 }
-.menu-link {
+.menu__link {
     font-weight: var(--bold-font);
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -44,7 +44,7 @@
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
 }
-.menu-link:hover,
-.menu-link:focus {
+.menu__link:hover,
+.menu__link:focus {
     color: var(--main-logo-color);
 }

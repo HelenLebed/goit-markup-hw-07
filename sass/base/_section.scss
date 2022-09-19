@@ -1,3 +1,8 @@
+.sections {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .order-wrap {
     background: var(--order-background-color);
     padding-top: 200px;
@@ -13,20 +18,17 @@
     background-position: center;
 }
 .features-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    @extend .sections;
 }
 .propositions-section {
     padding-bottom: 94px;
 }
 .our-team {
+    @extend .sections;
     background: var(--portfolio-select-list-background-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .regular-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    @extend .sections;
 }
 .bottom {
     background: var(--order-background-color);
@@ -34,6 +36,6 @@
     padding-bottom: 60px;
 }
 .portfolio-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    @extend .sections;
+
 }

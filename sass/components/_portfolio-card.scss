@@ -17,13 +17,16 @@
     transition-property: box-shadow;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
-}
-.portfolio-example-link:hover,
-.portfolio-example-link:focus {
+&:hover,
+&:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
+&:hover .portfolio-overlay-wrapper .portfolio-overlay,
+&:focus .portfolio-overlay-wrapper .portfolio-overlay {
+    transform: translateY(0%);
+}
+}
 .portfolio-overlay-wrapper .portfolio-overlay {
     position: absolute;
     top: 0;
@@ -44,10 +47,7 @@
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
 }
-.portfolio-example-link:hover .portfolio-overlay-wrapper .portfolio-overlay,
-.portfolio-example-link:focus .portfolio-overlay-wrapper .portfolio-overlay {
-    transform: translateY(0%);
-}
+
 .portfolio-example-wrap {
     padding: 20px 24px;
     border-right: 1px solid var(--border-color);

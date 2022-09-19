@@ -16,12 +16,13 @@
     transition-property: background-color, color;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+    &:hover,
+    &:focus {
+        background-color: var(--main-logo-color);
+        color: var(--secondary-font-color);
+    }
 }
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--main-logo-color);
-    color: var(--secondary-font-color);
-}
+
 .social-list-icon {
     width: 20px;
     height: 20px;
@@ -47,12 +48,13 @@
     transition-property: background-color;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+    &:hover,
+    &:focus {
+        background-color: var(--main-logo-color);
+        color: var(--secondary-font-color);
+    }
 }
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-    background-color: var(--main-logo-color);
-    color: var(--secondary-font-color);
-}
+
 .footer-social-list-icon {
     width: 20px;
     height: 20px;

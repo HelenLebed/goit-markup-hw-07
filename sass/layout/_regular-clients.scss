@@ -1,0 +1,26 @@
+.regular-clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+.regular-clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: var(--icon-svg-color);
+    fill: currentColor;
+    transition-property: border-color, color;
+    transition-duration: var(--transition-time);
+    transition-timing-function: var(--transition-function);
+}
+.regular-clients-link:hover,
+.regular-clients-link:focus {
+    color: var(--main-logo-color);
+}
+.regular-clients-icon {
+    width: 106px;
+    height: 60px;
+}

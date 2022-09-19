@@ -1,0 +1,33 @@
+.features-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--portfolio-select-list-background-color);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.specialty-main {
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-font-color);
+    margin-bottom: 10px;
+}
+.specialty-item {
+    line-height: 1.7;
+    color: var(--alternative-font-color);
+}
+.specialty-list {
+    display: flex;
+}
+
+.specialty {
+    margin-right: 30px;
+    width: 270px;
+}
+.specialty:last-child {
+    margin-right: 0;
+}

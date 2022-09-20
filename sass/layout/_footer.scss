@@ -1,11 +1,11 @@
-.subscribe-title {
+.footer-subscribe__title {
     margin-bottom: 20px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--secondary-font-color);
 }
-.footer-join-title {
+.join-title {
     font-size: inherit;
     font-weight: 700;
     line-height: 1.14;
@@ -23,7 +23,7 @@
 .bottom-list li:last-child {
     margin-bottom: 0;
 }
-.bottom-wrap {
+.bottom__wrap {
     display: flex;
     align-items: baseline;
     justify-content: space-between;

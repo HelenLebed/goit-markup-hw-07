@@ -22,13 +22,12 @@
     transition-property: color;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+
+    &:hover,
+    &:focus {
+        color: var(--main-logo-color);
+    }
 }
 .menu-contact svg {
     margin-right: 10px;
 }
-.menu-contact:hover,
-.menu-contact:focus {
-    color: var(--main-logo-color);
-}
-// _______________________________________
-

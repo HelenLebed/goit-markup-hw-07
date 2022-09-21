@@ -5,18 +5,20 @@
     transition-property: color;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+
+    &:hover,
+    &:focus {
+        color: var(--main-logo-color);
+    }
 }
-.bottom-address:hover,
-.bottom-address:focus{
-    color: var(--main-logo-color);
-}
+
 .bottom-address-tel-mail {
     font-style: normal;
     line-height: 1.7;
     color: var(--bottom-address-tel-mail-color);
-}
 
-.bottom-address-tel-mail:hover,
-.bottom-address-tel-mail:focus {
-    color: var(--main-logo-color);
+    &:hover,
+    &:focus {
+        color: var(--main-logo-color);
+    }
 }

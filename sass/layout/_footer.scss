@@ -19,10 +19,12 @@
 
 .bottom-list li {
     margin-bottom: 9px;
+
+    & li:last-child {
+        margin-bottom: 0;
+    }
 }
-.bottom-list li:last-child {
-    margin-bottom: 0;
-}
+
 .bottom__wrap {
     display: flex;
     align-items: baseline;

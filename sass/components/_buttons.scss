@@ -16,6 +16,7 @@
     transition-property: background-color;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+
     &:hover,
     &:focus {
         background: var(--modal-open-btn-background-color);
@@ -65,6 +66,7 @@
     transition-property: background-color, color, box-shadow;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
+
     &:hover,
     &:focus {
         background-color: var(--main-logo-color);

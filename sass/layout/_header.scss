@@ -1,18 +1,18 @@
 .page-header {
     border-bottom: 1px solid #ececec;
 }
-.header-wrap {
+.page-header__wrap {
     display: flex;
     justify-content: space-between;
 }
-.navigation-wrap {
+.page-header__navigation-wrap {
     display: flex;
     justify-content: space-between;
 }
 .menu {
     display: flex;
 
-    & li {
+    & .menu__item {
         margin-right: 50px;
     }
 }

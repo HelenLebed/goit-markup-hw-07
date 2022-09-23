@@ -1,14 +1,14 @@
-.contact-wrap {
+.contact__wrap {
     display: flex;
+    & .contact__item {
+        margin-right: 50px;
+    }
 }
 
-.contact-wrap li {
-    margin-right: 50px;
-}
 .contact__item:last-child {
     margin-right: 0px;
 }
-.menu-contact {
+.contact__link {
     font-weight: var(--bold-font);
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -27,7 +27,7 @@
     &:focus {
         color: var(--main-logo-color);
     }
-}
-.menu-contact svg {
-    margin-right: 10px;
+    & .contact__icon {
+        margin-right: 10px;
+    }
 }

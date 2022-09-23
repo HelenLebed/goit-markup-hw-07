@@ -1,15 +1,14 @@
-
-.portfolio-example-list {
+.portfolio__example-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.portfolio-example-item {
+.portfolio__example-item {
     width: calc((100% - 2 * 30px) / 3);
 }
 
-.portfolio-overlay-wrapper {
+.portfolio__overlay-wrapper {
     position: relative;
     overflow: hidden;
 }

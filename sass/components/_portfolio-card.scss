@@ -1,4 +1,4 @@
-.portfolio-example-list h2 {
+.portfolio__example-list h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -13,7 +13,7 @@
     margin-top: 4px;
 }
 
-.portfolio-example-link {
+.portfolio__example-link {
     display: block;
     transition-property: box-shadow;
     transition-duration: var(--transition-time);
@@ -26,7 +26,7 @@
     }
 }
 
-.portfolio-overlay-wrapper .portfolio-overlay {
+.portfolio__overlay-wrapper .portfolio__overlay-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -40,19 +40,19 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
-    overflow: scroll;
+    overflow-y: auto;
     background-color: var(--bg-portfolio-overlay);
     transition-property: transform;
     transition-duration: var(--transition-time);
     transition-timing-function: var(--transition-function);
 
-    .portfolio-example-link:hover &,
-    .portfolio-example-link:focus & {
+    .portfolio__example-link:hover &,
+    .portfolio__example-link:focus & {
         transform: translateY(0%);
     }
 }
 
-.portfolio-example-wrap {
+.portfolio__example-wrap {
     padding: 20px 24px;
     border-right: 1px solid var(--border-color);
     border-left: 1px solid var(--border-color);

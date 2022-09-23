@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.order-wrap {
+.order__wrap {
     background: var(--order-background-color);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -35,7 +35,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.portfolio-section {
+.portfolio {
     @extend .sections;
-
 }

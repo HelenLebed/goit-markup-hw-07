@@ -374,33 +374,6 @@ address {
   pointer-events: none;
 }
 
-.propositions-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--primary-font-color);
-  margin-bottom: 50px;
-}
-
-.our-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--primary-font-color);
-  margin-bottom: 50px;
-}
-
-.regular-clients-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--primary-font-color);
-  margin-bottom: 50px;
-}
-
 .social-list {
   display: flex;
   justify-content: center;
@@ -518,7 +491,7 @@ address {
   background: var(--modal-open-btn-background-color);
 }
 
-.portfolio__example-list h2 {
+.portfolio__example-list .portfolio__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -526,7 +499,7 @@ address {
   color: var(--primary-font-color);
 }
 
-.portfolio-example-wrap__text {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--alternative-font-color);
@@ -737,6 +710,15 @@ address {
   justify-content: space-between;
 }
 
+.propositions-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-font-color);
+  margin-bottom: 50px;
+}
+
 .our-team-list {
   display: flex;
   justify-content: space-between;
@@ -769,6 +751,15 @@ address {
   margin-bottom: 16px;
 }
 
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-font-color);
+  margin-bottom: 50px;
+}
+
 .regular-clients-list {
   display: flex;
   justify-content: space-between;
@@ -795,6 +786,15 @@ address {
 .regular-clients-icon {
   width: 106px;
   height: 60px;
+}
+
+.regular-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-font-color);
+  margin-bottom: 50px;
 }
 
 .footer-subscribe__title {
@@ -851,7 +851,7 @@ address {
 .bottom__tel-mail {
   font-style: normal;
   line-height: 1.7;
-  color: var(--bottom__tel-mail-color);
+  color: var(--bottom-address-tel-mail-color);
 }
 .bottom__tel-mail:hover, .bottom__tel-mail:focus {
   color: var(--main-logo-color);

@@ -1,4 +1,4 @@
-.features-box {
+.features__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     height: 120px;
     margin-bottom: 30px;
 }
-.specialty__text {
+.features__title {
     font-size: inherit;
     font-weight: 700;
     line-height: 1.14;
@@ -16,15 +16,15 @@
     color: var(--primary-font-color);
     margin-bottom: 10px;
 }
-.specialty__item {
+.features__text {
     line-height: 1.7;
     color: var(--alternative-font-color);
 }
-.specialty-list {
+.features__list {
     display: flex;
 }
 
-.specialty {
+.features__item {
     margin-right: 30px;
     width: 270px;
 

@@ -1,8 +1,8 @@
-.regular-clients-list {
+.regular-clients__list {
     display: flex;
     justify-content: space-between;
 }
-.regular-clients-link {
+.regular-clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,11 +22,11 @@
     }
 }
 
-.regular-clients-icon {
+.regular-clients__icon {
     width: 106px;
     height: 60px;
 }
-.regular-clients-title {
+.regular-clients__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;

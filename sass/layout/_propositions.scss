@@ -1,7 +1,7 @@
-.propositions-items {
+.propositions__items {
     position: relative;
 
-    & > .image-overlay {
+    & > .propositions__image-overlay {
         position: absolute;
         background-color: var(--bg-image-overlay);
         bottom: 0px;
@@ -19,11 +19,11 @@
     }
 }
 
-.propositions-list {
+.propositions__list {
     display: flex;
     justify-content: space-between;
 }
-.propositions-title {
+.propositions__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
